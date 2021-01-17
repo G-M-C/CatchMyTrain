@@ -1,0 +1,37 @@
+*:focus{
+  outline:none;
+  border: none;
+}
+.account{
+  position: absolute;
+    width: 450px;
+    padding: 15px 30px;
+    background-color: whitesmoke;
+
+    border-radius: 8px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+    top: 55%;
+   
+    float: left;
+    clear: left;
+  }
+  
+#account-title {
+  position: fixed;
+  transform: translate(-50%,-50%);  
+  left: 50%;
+  top: 120px
+      
+}
+  
+label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 4px;
+  }
+
+
+  
+ 
