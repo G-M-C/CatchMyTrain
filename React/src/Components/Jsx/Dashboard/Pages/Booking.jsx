@@ -101,7 +101,7 @@ class Booking extends Component {
                         <FontAwesomeIcon  style={{marginRight:"7px"}}icon = {faLayerGroup} />
 
                                 <select style={{outline:"none", border:"none", backgroundColor:"whitesmoke",}} classnName="selectclass" name="classoftravel" onChange={this.handleChange}>
-                                    <option value=" " disabled className="text-hide">Select Class</option>
+                                    <option hidden value=" ">Select Class</option>
                                     <option value="Sleeper Class">Sleeper Class</option>
                                     <option value="Third AC">Third AC</option>
                                     <option value="Second AC">Second AC</option>
